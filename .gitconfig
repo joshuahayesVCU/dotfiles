@@ -1,0 +1,9 @@
+[user]
+	name = joshuahayesVCU
+	email = hayesj9@vcu.edu
+[color]
+    ui = auto
+[core]
+    excludesfile = ~/.gitignore
+    editor = nvim
+    autocrlf = input
