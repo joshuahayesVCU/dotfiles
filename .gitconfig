@@ -1,9 +1,11 @@
 [user]
 	name = joshuahayesVCU
-	email = hayesj9@vcu.edu
+	email = josh.hayes121@icloud.com
 [color]
     ui = auto
 [core]
-    excludesfile = ~/.gitignore
+	excludesfile = /Users/josh/.gitignore_global
     editor = nvim
     autocrlf = input
+[init]
+	defaultBranch = main
