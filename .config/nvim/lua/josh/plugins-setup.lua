@@ -37,17 +37,9 @@ return require("packer").startup(function(use)
 	use("szw/vim-maximizer") -- maximizes and restores current window
 
 	-- essential plugins
-	use({
-		"kylechui/nvim-surround",
-		tag = "*", -- Use for stability; omit to use `main` branch for the latest features
-		config = function()
-			require("nvim-surround").setup({
-				-- Configuration here, or leave empty to use defaults
-			})
-		end,
-	})
 	use("vim-scripts/ReplaceWithRegister")
 	use("numToStr/Comment.nvim")
+	use("tpope/vim-surround")
 
 	-- file explorer
 	use("nvim-tree/nvim-tree.lua")
