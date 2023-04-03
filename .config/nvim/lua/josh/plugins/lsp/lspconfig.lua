@@ -82,6 +82,12 @@ lspconfig["jedi_language_server"].setup({
 	on_attach = on_attach,
 })
 
+-- configure ruby server
+lspconfig["solargraph"].setup({
+	capabilities = capabilities,
+	on_attach = on_attach,
+})
+
 -- configure emmet language server
 --lspconfig["emmet_ls"].setup({
 --  capabilities = capabilities,
