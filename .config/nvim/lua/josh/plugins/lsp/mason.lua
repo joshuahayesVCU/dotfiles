@@ -28,7 +28,6 @@ mason_lspconfig.setup({
 		"cssls",
 		"clangd",
 		"sqlls",
-		"solargraph",
 	},
 })
 
@@ -38,6 +37,5 @@ mason_null_ls.setup({
 		"stylua",
 		"clang_format",
 		"autopep8",
-		"rubocop",
 	},
 })

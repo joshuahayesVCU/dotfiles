@@ -5,7 +5,7 @@ opt.relativenumber = true
 opt.number = true
 
 -- tabs & indentation
-opt.tabstop = 4
+opt.tabstop = 2
 opt.shiftwidth = 4
 opt.expandtab = true
 opt.autoindent = true
@@ -20,7 +20,7 @@ opt.smartcase = true
 -- cursor line
 opt.cursorline = true
 
--- apperance 
+-- apperance
 opt.termguicolors = true
 opt.background = "dark"
 opt.signcolumn = "yes"
@@ -36,5 +36,3 @@ opt.splitright = true
 opt.splitbelow = true
 
 opt.iskeyword:append("-")
-
-
